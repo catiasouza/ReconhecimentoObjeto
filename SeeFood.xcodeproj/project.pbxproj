@@ -13,6 +13,7 @@
 		541416A42423963600BED4CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541416A22423963600BED4CF /* Main.storyboard */; };
 		541416A62423963800BED4CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541416A52423963800BED4CF /* Assets.xcassets */; };
 		541416A92423963800BED4CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541416A72423963800BED4CF /* LaunchScreen.storyboard */; };
+		541416B12423979700BED4CF /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 541416B02423979700BED4CF /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		541416A52423963800BED4CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		541416A82423963800BED4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		541416AA2423963800BED4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541416B02423979700BED4CF /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				541416A52423963800BED4CF /* Assets.xcassets */,
 				541416A72423963800BED4CF /* LaunchScreen.storyboard */,
 				541416AA2423963800BED4CF /* Info.plist */,
+				541416B02423979700BED4CF /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				541416A12423963600BED4CF /* ViewController.swift in Sources */,
+				541416B12423979700BED4CF /* Inceptionv3.mlmodel in Sources */,
 				5414169D2423963600BED4CF /* AppDelegate.swift in Sources */,
 				5414169F2423963600BED4CF /* SceneDelegate.swift in Sources */,
 			);
